@@ -9,7 +9,7 @@ $(document).ready(function() {
         autoPlay:true
     });
 });
-
+var videoPlayer = document.getElementById('videoPlayer')
 var vArray = [
     "../img/VID-20200619-WA0005.mp4",
     "../img/VID-20200619-WA0006.mp4",

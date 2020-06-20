@@ -9,20 +9,20 @@ $(document).ready(function() {
         autoPlay:true
     });
 });
-// var videoPlayer = document.getElementById('videoPlayer')
-// var vArray = [
-//     "../img/VID-20200619-WA0005.mp4",
-//     "../img/VID-20200619-WA0006.mp4",
-//     "../img/VID-20200619-WA0007.mp4",
-// ]
+var videoPlayer = document.getElementById('videoPlayer')
+var vArray = [
+    "./img/VID-20200619-WA0005.mp4",
+    "./img/VID-20200619-WA0006.mp4",
+    "./img/VID-20200619-WA0007.mp4",
+]
 
-// videoPlayer.src = vArray[0]
-// videoPlayer.type = 'video/mp4'
+videoPlayer.src = vArray[0]
+videoPlayer.type = 'video/mp4'
 
-// i = 1
-// videoPlayer.onended = function(){
-//     if (i < vArray.length) {
-//         videoPlayer.src = vArray[i]
-//        i++
-//     }
-// }
+i = 1
+videoPlayer.onended = function(){
+    if (i < vArray.length) {
+        videoPlayer.src = vArray[i]
+       i++
+    }
+}

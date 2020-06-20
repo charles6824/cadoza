@@ -17,6 +17,7 @@ var vArray = [
 ]
 
 videoPlayer.src = vArray[0]
+videoPlayer.type = 'video/mp4'
 
 i = 1
 videoPlayer.onended = function(){
